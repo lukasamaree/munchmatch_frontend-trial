@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import axios from 'axios';
 import multer from 'multer';
-import { NextApiRequestWithFiles } from '@/types/next';
+import { NextApiRequestWithFiles } from '../../types/next';
 import { createReadStream } from 'fs';
 
 // Configure multer
