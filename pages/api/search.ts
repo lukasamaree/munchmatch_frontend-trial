@@ -31,7 +31,7 @@ export const config = {
 };
 
 export default async function handler(
-  req: NextApiRequest,
+  req: NextApiRequestWithFiles,
   res: NextApiResponse
 ) {
   if (req.method !== 'POST') {
